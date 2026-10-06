@@ -1,0 +1,45 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Notebook temporary files
+.ipynb_checkpoints/
+
+# Editor settings
+.vscode/
+.idea/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Input videos and extracted frames
+data/raw/*
+!data/raw/.gitkeep
+
+data/frames/*
+!data/frames/.gitkeep
+
+# Model checkpoints
+checkpoints/*
+!checkpoints/.gitkeep
+*.pt
+*.pth
+*.ckpt
+
+# Generated results
+outputs/*
+!outputs/.gitkeep
+
+# External source repositories
+third_party/
+
+# Operating system files
+.DS_Store
+Thumbs.db
